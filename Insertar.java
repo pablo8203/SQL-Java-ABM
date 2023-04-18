@@ -10,10 +10,10 @@ public class Insertar {
   public static void main(String[] args) {
     
     Connection conexion;
-    String url="jdbc:mysql://localhost:3306/qatar2022";
+    String url="jdbc:mysql://localhost:3306/prueba";
     String usuario="root";
     String clave="pabLo987$";
-    String consulta="insert into empleados (EmpDni,EmpNom,EmpApe,EmpNac,EmpDep) values ('99','Luis','Java','Chile','1')";
+    String consulta="insert into cliente(CliDni,ClieNom,ClieApe) values('2','Maria','Perez')";
         
     try {
     	Class.forName("com.mysql.jdbc.Driver");     
