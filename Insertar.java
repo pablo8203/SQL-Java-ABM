@@ -1,6 +1,6 @@
 package conexion.sql;
 
-/**
+/*
 Procedimiento para conectar la DB y realizar insercion de datos en la tabla sin pedir por pantalla  
 */
 import java.sql.Connection;

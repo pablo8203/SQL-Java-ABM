@@ -1,6 +1,5 @@
 package conexion.sql;
-
-/**
+/*
 Procedimiento para conectar la DB y realizar la eliminacion de un registro 
 */
 import java.sql.Connection;

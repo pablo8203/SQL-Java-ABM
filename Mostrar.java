@@ -1,6 +1,6 @@
 package conexion.sql;
 
-/**
+/*
 Procedimiento para conectar la DB y realizar la lectura de datos en la tabla sin mostrar datos
 */
 import java.sql.Connection;

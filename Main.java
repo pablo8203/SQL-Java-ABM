@@ -9,13 +9,11 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
+/*
  Ejemplo para conectar la DB y realizar una consulta de las tablas.
  */
 public class Main {
 
- 
     Connection conexion = null;
     Statement stm = null;
    
@@ -60,8 +58,7 @@ public class Main {
 
         return sc.nextInt(); //Recibo un entero
 
-    }//Fin menuPrin
-   
+    }//Fin MENU PRINCIPAL
    
    
    
