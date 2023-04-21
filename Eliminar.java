@@ -10,15 +10,15 @@ public class Eliminar {
   public static void main(String[] args) {
     
     Connection conexion;
-    String url="jdbc:mysql://localhost:3306/carrito";
+    String url="jdbc:mysql://localhost:3306/escuela";
     String usuario="root";
     String clave="pabLo987$";
     
     Scanner sc = new Scanner(System.in);
-    System.out.println("Escriba el DNI del cliente a eliminar:...");
-    int ClienDni  = sc.nextInt(); //asigna la entrada de usuario a la DNI
+    System.out.println("Escriba el DNI del alumno a eliminar:...");
+    int AlumDni  = sc.nextInt(); //asigna la entrada de usuario a la DNI
     
-    String consulta="DELETE FROM cliente WHERE ClienDni = '"+ClienDni+"'";
+    String consulta="DELETE FROM alumnos WHERE AlumDni = '"+AlumDni+"'";
      // DELETE FROM Producto WHERE ClienDni = 7   
     try {
     	Class.forName("com.mysql.jdbc.Driver");     
